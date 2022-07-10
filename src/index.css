@@ -5,9 +5,59 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
 
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+* {
+  box-sizing: border-box;
+
+}
+html,
+body {
+  background-color: #131A28 !important;
+   box-sizing: border-box;
+  color: #fff !important;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  word-spacing: 2px;
+  text-align: center !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield;
+}
+.todoForm{
+  margin:50px auto;
+  width: 450px;
+  height: min-content;
+  border-radius: 15px;
+  padding: 50px 10px;
+  border: #7777 1px solid;
+}
+.lists{
+  justify-content:space-between ;
+  display: flex;
+}
+button {
+  align-items: center;
+  cursor: pointer;
+  
+}
+input ,button{
+   padding: 10px;
+   border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+}
+button:focus ,:focus-visible {
+  outline: none;
+} 
